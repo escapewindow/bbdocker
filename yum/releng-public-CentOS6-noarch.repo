@@ -1,0 +1,13 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# Managed by puppet
+
+[releng-public-CentOS6-noarch]
+name=releng-public-CentOS6-noarch
+descr=Static "releng-public-CentOS6-noarch" repo managed by puppet
+mirrorlist=file:///etc/yum.repos.d/releng-public-CentOS6-noarch.mirrors
+enabled=1
+sslverify=0
+gpgcheck=0
